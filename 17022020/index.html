@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thuc hanh html va css</title>
+    <link rel="stylesheet" href="./css/stype.css">
+    <style>
+        /* body{
+            background-image: url(./images/Profile.JPEG);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        } */
+        a:active{
+            color: red;
+        }
+        a:visited{
+            color: greenyellow ;
+        }
+        a:link{
+            color: hotpink;
+        }
+        a:hover{
+            color: green;
+        }
+    </style>
+</head>
+<body >
+    <!-- Links -->
+    <div>
+        <a id="a1" href="http://google.com" target="_blank">Go to google new tab</a>
+        <a id="a2" href="http://google.com" target="_self">Go to google new tab</a>
+        <a id="a3" href="./pages/header.html">Page</a>
+        <a href="./pages/header.html#indam">Go to in dam of page</a>
+        <a href="#profile">Profile</a>
+    </div>
+    <!-- Buttons -->
+    <Button onclick="document.location='https:/google.com'">Click me</Button> 
+    <!-- Bắt sự kiện khi click vào button sd "document.location" đi tới 1 link khác -->
+    <Button onclick="alert('Hello, you click')">Click me</Button> 
+    <!-- Bắt sự kiện khi click vào button sd "alert" hiển thị thông báo-->
+    <Button><a href="http://google.com" target="_blank">Go to google new tab</a></Button> 
+    <div>
+        <!-- Formatting -->
+        <b>In đậm</b>
+        <br>
+        <strong>Nhấn mạnh</strong>
+        <br>
+        <i>In nghiêng</i>
+        <br>
+        <em>Nhấn mạnh - In nghiêng</em>
+        <br>
+        <small>Thu nhỏ text</small>
+        <br>
+        <mask>Đánh dấu text</mask>
+        <br>
+        <del>Gạch bỏ text</del>
+        <br>
+        <sub>Cho lên xíu</sub>
+        <br>
+        <sup>cho xuống xíu</sup>
+        <br>
+        <ins>Gạch chân text</ins>
+        <!-- Test -->
+    </div>
+    <div id="profile" >
+        <h3 >Profile Info </h3>
+        <p class="pinkclass"> Name: <b><i>Duong Thuy Ngan</i></b></p>
+        <p id="P1"> Age: <b>22</b></p>
+        <p class="pinkclass" style="color: blue;"> Favorites: <b>Read Book </b></p>
+    </div>
+    <!-- images -->
+    <div>
+        <img width=200px src="./images/Profile.JPEG" alt="ThuyNgan">
+    </div>
+    <!-- tables -->
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Ngan</td>
+        </tr>
+    </table>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+    </ul>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+    </ol>
+    <hr>
+    <p> Slogan: <b><mark>Make yourself become the best seller</mark></b></p>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điểu khiển</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="./success.html">
+        <table>
+            <tr>
+                <th colspan="2">Đăng ký du lịch</th>
+            </tr>
+            <tr>
+                <td class="col1">Họ và tên</td>
+                <td>
+                    <input type="text" >
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Địa chỉ</td>
+                <td>
+                    <input type="text" >
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Điện thoại</td>
+                <td>
+                    <input type="text" >
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Khách Việt Nam</td>
+                <td>
+                    <input type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Chọn tour</td>
+                <td>
+                    <select name="tour" id="tourdl">
+                        <optgroup label="Miền Bắc">
+                            <option value="SP">Hà Nội - Hạ Long - Sapa</option>
+                            <option value="NB">Hà Nội - Chùa Hương - Ninh Bình</option>
+                            <option value="TC">Hà Nội - Cát Bà - Tuần Châu</option>
+                        </optgroup>
+                            <optgroup label="Miền Trung">
+                            <option value="DN">Huế - Bạch Mã - Đà Nẵng</option>
+                            <option value="DL">Nha Trang - Đà Lạt</option>
+                            <option value="KT">Buôn mê thuột - Gia Lai - Kontum</option>
+                        </optgroup>
+                            <optgroup label="Miền Nam">
+                            <option value="CM">TP.HCM - Cần Thơ - Cà Mau</option>
+                            <option value="MT">TP.HCM - Mỹ Tho</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Phương tiện</td>
+                <td>
+                    <input type="radio" name="pt" value="mb" checked><font>Máy bay </font>
+                    <input type="radio" name="pt" value="ot"><font>Xe ô tô</font>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset class="cenbut">
+                        <legend style="color: saddlebrown;">Số lượng đoàn khách</legend>
+                        <label for="nl"><font>Người lớn</font></label>
+                        <input type="text" id="nl">
+                        <label for="te"><font>Trẻ em</font></label>
+                        <input type="text" id="te">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Ghi chú thêm</td>
+                <td>
+                    <textarea name="ghichu" id="ghichu" cols="30" rows="10">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="but1">
+                    <button>Đồng ý</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

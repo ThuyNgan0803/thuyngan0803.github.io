@@ -1,0 +1,24 @@
+body{
+    font-family: tahoma;
+    font-size: 12px;
+}
+h1{
+    text-align: center;
+    color: rgb(196, 40, 66);
+}
+table {
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid rgb(209, 130, 143);
+}
+.left{
+    text-align: left;
+}
+tr.top{
+    color: white;
+    background-color: rgb(223, 75, 100);
+}

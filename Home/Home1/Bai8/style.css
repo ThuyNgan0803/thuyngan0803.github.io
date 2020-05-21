@@ -1,0 +1,32 @@
+body{
+    background-color: #ffedca;
+}
+img{
+    width: 30%;
+    position: absolute;
+}
+h1{
+    color: #cc6600;
+}
+table {
+    width: 90%;
+    margin: 5%;
+    text-align: left;
+    border-collapse: collapse;
+}
+th, td{
+    border: 0.1px solid purple;
+}
+.right{
+    margin-left: 35%;
+}
+.cen{
+    text-align: center;
+}
+.tieude{
+    color: white;
+    background-color:#cc6600;
+}
+.nen{
+    background-color: white;
+}

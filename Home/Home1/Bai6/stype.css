@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+    color: orange;
+    border: orange;
+    border-style: double;
+}
+#para1{
+ text-align: left;
+}
+#para2{
+    text-align: right;
+    color: white;
+    background-color: orangered;
+    font-size: 20px;
+}
+#para3{
+    text-align:  right;
+}
+b{
+    font-weight: bold;
+}
+i{
+    background-color: orange;
+}
+font{
+    color: red;
+}
+#openpara{
+    font-size: 40px;
+    font-style: initial;
+    font-weight: bold;
+}

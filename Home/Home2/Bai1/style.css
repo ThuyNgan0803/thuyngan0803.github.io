@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header,#logo{
+    width: 100%;
+    height: 100px;
+}
+#menuContainer{
+    border: 1px solid red;
+    width: 100%;
+    height: 50px;
+    text-align: center; 
+    padding: 20px 5px 0px 5px;   
+}
+li{
+    display: inline;
+    margin: 50px;
+}
+#sidebar1{
+    width: 25%;
+    font-size: 12px;
+    float: left;
+}
+#maincontent{
+    float: left;
+    width:75% ;
+}
+#banner{
+    height: 400px;
+    padding-left: 20px;
+    background-color: #dedff9;
+}
+#article{
+    padding-bottom: 0px;
+    line-height: 200%;
+    padding-left: 20px;
+}
+#footer{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: white;
+    border: 1px solid #8c0209;
+}
+.subsidebar{
+    border: 1px solid #1a24fc;
+}
+.bar_title{
+    height: 40px;
+    background-color: #8c0209;
+    color: white;
+}
+.subsidecontent{
+    height: 100px;
+}
+.contentItem{
+    padding-left: 20px;
+}
+.tieude{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    background-color: #8c0209;
+    color: white;
+    height: 30px;
+}
+.hotimg{
+    margin-top: 4px;
+}
+.dshinh{
+    margin-top: 4px;
+}
+

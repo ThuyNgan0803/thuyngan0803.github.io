@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+}
+#top{
+    width: 100%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid gray;
+}
+#left{
+    width: 30%;
+    text-align: left;
+}
+#right{
+    width: 70%;
+    text-align: right;
+}
+#topl{
+    width: 80%;
+    height: 15%;
+    text-align: center;
+    background-image: url(./images/topl.jpg);
+    
+}
+#topr{
+    width: 20%;
+    height: 15%;
+    text-align: right;
+    background-image: url(./images/topr.jpg);
+}
+#item1, #item2, #item3{
+    font-weight: bold;
+    color: rgb(43, 43, 236);
+}
+#item1{
+    font-size: 36px;
+}
+#item2{
+    font-size: 32px;
+}
+#item3{
+    font-size: 28px;
+}
+#listlefft{
+    color: rgb(61, 61, 214);
+    list-style-type: initial;
+}

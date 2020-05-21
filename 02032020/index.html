@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buổi thứ 4 ngày 02 tháng 03 năm 2020</title>
+</head>
+<body>
+    <!-- Các thẻ heading, paragraph, và format -->
+    <h1>Heading 1</h1>
+    <h6>Heading 6</h6>
+    <p><i><b>paragraph</b></i></p>
+    <p>Sub: <sub>2</sub></p>
+    <p>Sup: <sup>2</sup></p>
+    <!-- Phân biệt inline và block -->
+    <!-- Table và List -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <table>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Class</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Thúy Ngân</td>
+            <td>ReactJS</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bình</td>
+            <td>ReactJS</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Loan</td>
+            <td>ReactJS</td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend>Form</legend>
+        <form action="login.php" method="GET">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="text" name="password"id="password">
+            <br><br>
+            <label for="color">Choose color:</label>
+            <input type="color" name="color" id="color">
+            <br><br>
+            <label for="Date">Date of Birth:</label>
+            <input type="date" name="Date" id="Date">
+            <br><br>
+            <input type="submit" value="submit" onclick="onSubmit()">
+            <p id="log" style="color: blue; display: none;">Bạn đã đăng nhập thành công!</p>
+        </form>
+    </fieldset>
+    <script>
+        function onSubmit(){
+            event.preventDefault();
+            alert('Hello');
+            var log=document.getElementById('log');
+            log.style.display= "block";
+            log.style.color="red";
+        }
+    </script>
+</body>
+</html>

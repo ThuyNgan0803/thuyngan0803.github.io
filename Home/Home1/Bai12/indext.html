@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và cá điều khiển</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="./success.html">
+            <p>Phiếu đăng ký tham gia chương trình khuyến mãi</p>
+            <table>
+            <tr>
+                <td class="col1">Họ và tên</td>
+                <td>
+                    <input type="text" class="in1">
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Địa chỉ</td>
+                <td>
+                    <input type="text" class="in2" >
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Điện thoại</td>
+                <td>
+                    <input type="text" class="in3">
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Phái</td>
+                <td>
+                    <input type="radio" name="gender" value="Nam"  checked><font>Nam </font>
+                    <input type="radio" name="gender" value="Nữ" ><font>Nữ</font>
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Nghề nghiệp</td>
+                <td>
+                    <select id="nghe">
+                        <option value="Bác sĩ">Bác sĩ</option>
+                        <option value="Kỹ sư">Kỹ sư</option>
+                        <option value="Giáo viên">Giáo viên</option>
+                        <option value="Khác">Khác</option>
+                      </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Chọn sản phẩm tham gia</td>
+                <td>
+                    <select name="sp" multiple>
+                        <option value="Kem đánh răng">Kem đánh răng</option>
+                        <option value="Bột giặt">Bột giặt</option>
+                        <option value="Dầu gội đầu">Dầu gội đầu</option>
+                        <option value="Sữa tắm">Sữa tắm</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">Số người dự đoán tham gia</td>
+                <td>
+                    <input type="text" class="in4">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="but">
+                    <button>Đồng ý</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

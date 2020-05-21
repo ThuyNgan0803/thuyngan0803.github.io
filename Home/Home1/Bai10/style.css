@@ -1,0 +1,41 @@
+table {
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid rgb(209, 130, 143);
+}
+font{
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.top1, .top2, .top3{
+    width: 75%;
+}
+.top1{
+    background-color:#FF0000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    height: 20px;
+}
+.top3{
+    background-color: #FFbbbb;
+    color: #FF0000;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.butleft, .butright{
+    width: 50%;
+    text-align: left;
+}
+.right{
+    background-image: url(./dr.jpg);
+    width: 25%;
+    height: 20%;
+}

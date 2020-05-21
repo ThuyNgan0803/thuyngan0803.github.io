@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điều khiển trên form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="./header.html" method="POST">
+        <table>
+            <tr>
+                <th colspan="2" style="color: red;"> ĐĂNG NHẬP </th>
+            </tr>
+            <tr class="tb">
+                <td> Mã người dùng: </td>
+                <td>
+                    <input id="nickname" type="text" placeholder="Nhập mã người dùng" size="40" name="name">
+                </td>
+            </tr>
+            <tr class="tb">
+                <td> Mật khẩu: </td>
+                <td>
+                    <input type="password" placeholder="Nhập mật khẩu" size="40" name="pass">
+                </td>
+            </tr>
+            <tr>
+                <td class="sm" colspan="2">
+                    <input type="submit" name="btok" value="Đồng ý">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điều khiển trên form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="./index.html" method="GET">
+        <table>
+            <tr>
+                <th colspan="2" style="color: red;"> ĐĂNG NHẬP </th>
+            </tr>
+            <tr class="tb">
+                <td> Mã người dùng: </td>
+                <td>
+                    <input id="nickname" type="text" placeholder="Nhập mã người dùng" size="40" name="name">
+                </td>
+            </tr>
+            <tr class="tb">
+                <td> Mật khẩu: </td>
+                <td>
+                    <input type="password" placeholder="Nhập mật khẩu" size="40" name="pass">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button onclick="myFunction()" id="ok">Đồng ý</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p id="name"></p>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("nickname").innerText;
+            document.getElementById("name").innerHTML = x;  
+          }
+        </script>
+</body>
+</html>

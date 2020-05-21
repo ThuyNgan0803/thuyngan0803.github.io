@@ -1,0 +1,45 @@
+form{
+    width: 600px;
+    margin: 10% 30%;
+    border: 1px solid grey;
+}
+table{
+    border-collapse: collapse;
+    width: 96%;
+    margin: 2%;
+}
+p{
+    color:rgb(61, 138, 173);
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+td{
+    border: 1px solid rgb(71, 71, 218);
+    background-color:rgb(235, 226, 178);
+}
+th{
+    color: blue;
+    font-size: 28px;
+    font-weight: bold;
+}
+.col1, font{
+    color: rgb(61, 138, 173);
+}
+.cenbut{
+    width: 60%;
+    margin: 5px 20%;
+    border:1px solid saddlebrown;
+}
+#ghichu{
+    height: 50px;
+}
+#nl, #te{
+    width: 30%;
+}
+.but1, .but2{
+    text-align: center;
+}
+.but2{
+    color: saddlebrown;
+}

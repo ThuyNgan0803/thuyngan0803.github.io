@@ -1,0 +1,19 @@
+#P1{
+    color: pink;
+    font-size: 36;
+    font-weight: bold;
+    border: 1px red;
+    border-radius: 2px;
+    width: 100px;
+    height: 200px;
+    padding: 30px;
+    padding-top: 20%;
+    margin: 20px;
+    text-align: center;
+}
+.pinkclass{
+    color: powderblue;
+}
+#a1 #a2 #a3{
+    display: inline-block;
+}

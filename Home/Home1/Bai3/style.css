@@ -1,0 +1,11 @@
+body{
+    background-color: #a06d21;
+    color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./vltt.jpg);
+}
+h2{
+    color: #FFcc00;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+#img-top{
+    width: 20px;
+} 
+.h1-top{
+    float: left;
+}
+#top{
+    width: 100%;
+    height: 10vh;
+    margin-top: 0;
+    border: 1px solid #dadce2;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+#top-right{
+    float: right;
+}
+#Contact{
+    
+    width: 100%;
+    margin-top: 10vh;
+}
+.bar{
+    width: 100%;
+    height: 90vh;
+}
+.bar1{
+    background-color: ghostwhite;
+}
+.left-bar{
+    width: 50%;
+    padding-right: 50%;
+    display: inline;
+}
+.img-bar{
+    width: 30%;
+    padding-right: 20%;
+    float: right;
+}

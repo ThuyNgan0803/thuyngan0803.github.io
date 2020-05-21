@@ -1,0 +1,24 @@
+#dong1{
+    text-align: center;
+    color: #006600;
+}
+#dong2{
+    text-decoration: underline;
+    color: #0000ff;
+}
+#dong3{
+    font-weight: bold;
+}
+#dong4{
+    text-align: center;
+    color: #ff3399;
+    background-color: #fecffd;
+}
+#tho{
+    font-style: italic;
+    text-align: center;
+    background-color: #ffffcc;
+}
+hr{
+    width: 200px ;
+}
