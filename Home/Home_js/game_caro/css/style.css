@@ -15,7 +15,6 @@ body {
     z-index: -1;
     min-width: 100%;
     min-height: 100%;
-    background: black;
     opacity: 0.3;
 }
 
@@ -27,7 +26,7 @@ body {
     font-weight: bold;
     font-family: sans-serif;
     z-index: 1;
-    color: white;
+    color: rgb(12, 12, 12);
 }
 
 .gamespace {
@@ -49,14 +48,14 @@ body {
     height: 100px;
     width: 100px;
     border: none;
-    background: #656468;
+    background: #9383c2;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
 }
 
 .panel button:disabled {
-    color: #fff;
+    color: rgb(172, 20, 33);
 }
 
 .panel {
