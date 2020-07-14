@@ -4,10 +4,20 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'antd/dist/antd.css'
+import { Provider } from 'react-redux';
+import store from './store/store'
+import { LOGIN } from './constants/ActionType';
+
+let token = localStorage.getItem("token")
+if (token) {
+  store.dispatch({type: LOGIN})
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store = { store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
